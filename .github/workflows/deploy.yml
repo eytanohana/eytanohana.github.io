@@ -29,4 +29,4 @@ jobs:
 
 
       - name: Deploy
-        run: uv mkdocs gh-deploy --force
+        run: uv run mkdocs gh-deploy --force
