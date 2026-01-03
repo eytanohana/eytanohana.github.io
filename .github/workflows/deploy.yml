@@ -1,4 +1,4 @@
-name: Deploy MkDocs
+name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
@@ -6,27 +6,40 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
-env:
-  UV_VERSION: "0.9.21"
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+      - name: Checkout
+        uses: actions/checkout@v5
 
-      - name: Set up uv and Python
-        uses: astral-sh/setup-uv@681c641aba71e4a1c380be3ab5e12ad51f415867 # v7
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Build site
+        run: uv run mkdocs build --clean
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          enable-cache: true
-          version: ${{ env.UV_VERSION }}
+          path: site
 
-      - name: Install docs dependencies
-        run: |
-          uv sync
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
-
-      - name: Deploy
-        run: uv run mkdocs gh-deploy --force
