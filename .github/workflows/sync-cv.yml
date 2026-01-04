@@ -14,6 +14,7 @@ jobs:
 
     outputs:
       changed: ${{ steps.detect.outputs.changed }}
+      deploy_ref: $ {{ steps.setref.outputs.deploy_ref }}
 
     permissions:
       contents: write # to commit back into the website repo
@@ -39,8 +40,10 @@ jobs:
         id: detect
         run: |
           if git diff --quiet; then
+            echo "no changes"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
+            echo "changes detected"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -54,6 +57,11 @@ jobs:
           git commit -m "[bot]: sync latest resume"
           git push
 
+      - name: Set deploy ref (new HEAD sha)
+        id: setref
+        run: |
+          echo "deploy_ref=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
   deploy:
     needs: sync
     if: needs.sync.outputs.changed == 'true'
@@ -63,3 +71,5 @@ jobs:
       id-token: write
     uses: ./.github/workflows/deploy.yml
     secrets: inherit
+    with:
+      ref: ${{ needs.sync.outputs.deploy_ref }}
