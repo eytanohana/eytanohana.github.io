@@ -14,7 +14,7 @@ jobs:
 
     outputs:
       changed: ${{ steps.detect.outputs.changed }}
-      deploy_ref: $ {{ steps.setref.outputs.deploy_ref }}
+      deploy_ref: ${{ steps.setref.outputs.deploy_ref }}
 
     permissions:
       contents: write # to commit back into the website repo
