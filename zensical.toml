@@ -282,7 +282,7 @@ toggle.name = "Switch to light mode"
 # ----------------------------------------------------------------------------
 [project.theme.icon]
 logo = "lucide/smile"
-repo = "lucide/smile"
+repo = "fontawesome/brands/github"
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
