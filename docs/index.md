@@ -9,7 +9,7 @@ description: I like to build things with code.
 
 ## At work
 
-I work as a backend developer, building APIs and services that are designed to be reliable, maintainable, and easy to reason about.
+I am a backend developer, building APIs and services that are designed to be reliable, maintainable, and easy to reason about.
 
 I care deeply about clean abstractions, clear interfaces, and systems that hold up well over time.
 
