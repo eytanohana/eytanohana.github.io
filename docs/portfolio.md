@@ -5,9 +5,9 @@ description: A small selection of things I’ve built.
 
 # Portfolio
 
-A short selection of projects that reflect how I think about software and systems.
+A short selection of my projects that I found interesting enough to share.
 
-These focus on backend engineering, tooling, and fundamentals — not demos or experiments for their own sake.
+If you want to collab get in touch!
 
 ---
 
@@ -80,6 +80,28 @@ Focused on clarity and tradeoffs rather than performance tricks.
 Notebooks illustrating graphs and different graph traversal algorithms.
 
 🔗 https://github.com/eytanohana/Graph-Algorithms
+
+---
+
+### **Data-Science-and-Statistics**
+**Python · Algorithms**
+
+Notebooks explaining different topics in Data Science and Statistics.
+
+Includes an interactive app built with [streamlit](https://streamlit.io/).
+
+🔗 https://github.com/eytanohana/Data-Science-and-Statistics
+
+---
+
+### **Machine-Learning-Implementations**
+**Python · ML**
+
+Notebooks explaining different topics in Machine Learning.
+
+Includes an interactive app built (you guessed it) with [streamlit](https://streamlit.io/).
+
+🔗 https://github.com/eytanohana/Machine-Learning-Implementations
 
 ---
 
