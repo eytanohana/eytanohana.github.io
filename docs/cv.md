@@ -9,4 +9,4 @@ description: My resume
 [Download](assets/Eytan-Ohana-Resume.pdf)
 </div>
 
-<iframe src="/assets/Eytan-Ohana-Resume.pdf" width="100%" height="900" loading="lazy" />
+<iframe src="/assets/Eytan-Ohana-Resume.pdf" width="100%" height="900" loading="lazy"></iframe>
