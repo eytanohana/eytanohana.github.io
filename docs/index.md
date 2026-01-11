@@ -21,4 +21,4 @@ Often small, intentional implementations meant to make complex ideas clearer.
 
 ---
 
-Check me out on [GitHub](https://github.com/eytanohana).
+Check me out on <a href="https://github.com/eytanohana" target="_blank">GitHub</a>.

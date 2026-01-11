@@ -23,8 +23,8 @@ Built to make core ideas explicit and easy to reason about.
 - Minimal, explicit APIs
 - Testing first approach (TDD)
 
-🔗 https://github.com/eytanohana/py-ds-academy  
-🔗 https://py-ds-academy.eytanohana.com
+🔗 <a href="https://github.com/eytanohana/py-ds-academy" target="_blank">github.com/eytanohana/py-ds-academy</a>  
+🔗 <a href="https://py-ds-academy.eytanohana.com" target="_blank">py-ds-academy.eytanohana.com</a>
 
 
 ```commandline
@@ -42,8 +42,8 @@ Helpers for automating version bumps and releases when working with `uv`.
 
 Built to reduce friction and make release workflows more predictable.
 
-🔗 https://github.com/eytanohana/uv-release-tools  
-🔗 https://github.com/marketplace/actions/uv-release-tools
+🔗 <a href="https://github.com/eytanohana/uv-release-tools" target="_blank">github.com/eytanohana/uv-release-tools</a>  
+🔗 <a href="https://github.com/marketplace/actions/uv-release-tools" target="_blank">github.com/marketplace/actions/uv-release-tools</a>
 
 ---
 
@@ -54,7 +54,7 @@ Built to reduce friction and make release workflows more predictable.
 
 An implementation and exploration of the Tower of Hanoi problem.
 
-🔗 https://github.com/eytanohana/Hanoi
+🔗 <a href="https://github.com/eytanohana/Hanoi" target="_blank">github.com/eytanohana/Hanoi</a>
 
 ```commandline
 $ pip install hanoi-viz
@@ -71,7 +71,7 @@ Straightforward implementations of classical sorting algorithms.
 
 Focused on clarity and tradeoffs rather than performance tricks.
 
-🔗 https://github.com/eytanohana/Python-Sorting-Algorithms
+🔗 <a href="https://github.com/eytanohana/Python-Sorting-Algorithms" target="_blank">github.com/eytanohana/Python-Sorting-Algorithms</a>
 
 ---
 
@@ -80,7 +80,7 @@ Focused on clarity and tradeoffs rather than performance tricks.
 
 Notebooks illustrating graphs and different graph traversal algorithms.
 
-🔗 https://github.com/eytanohana/Graph-Algorithms
+🔗 <a href="https://github.com/eytanohana/Graph-Algorithms" target="_blank">github.com/eytanohana/Graph-Algorithms</a>
 
 ---
 
@@ -89,10 +89,10 @@ Notebooks illustrating graphs and different graph traversal algorithms.
 
 Notebooks explaining different topics in Data Science and Statistics.
 
-Includes an interactive app built with [streamlit](https://streamlit.io/).
+Includes an interactive app built with <a href="https://streamlit.io/" target="_blank">streamlit</a>.
 
-🔗 https://github.com/eytanohana/Data-Science-and-Statistics  
-🔗 https://data-science-stats.streamlit.app
+🔗 <a href="https://github.com/eytanohana/Data-Science-and-Statistics" target="_blank">github.com/eytanohana/Data-Science-and-Statistics</a>  
+🔗 <a href="https://data-science-stats.streamlit.app" target="_blank">data-science-stats.streamlit.app</a>
 
 ---
 
@@ -101,10 +101,10 @@ Includes an interactive app built with [streamlit](https://streamlit.io/).
 
 Notebooks explaining different topics in Machine Learning.
 
-Includes an interactive app built (you guessed it) with [streamlit](https://streamlit.io/).
+Includes an interactive app built (you guessed it) with <a href="https://streamlit.io/" target="_blank">streamlit</a>.
 
-🔗 https://github.com/eytanohana/Machine-Learning-Implementations  
-🔗 https://ml-implementations.streamlit.app
+🔗 <a href="https://github.com/eytanohana/Machine-Learning-Implementations" target="_blank">github.com/eytanohana/Machine-Learning-Implementations</a>  
+🔗 <a href="https://ml-implementations.streamlit.app" target="_blank">ml-implementations.streamlit.app</a>
 
 ---
 
@@ -115,22 +115,22 @@ Includes an interactive app built (you guessed it) with [streamlit](https://stre
 
 A small puzzle game clone where a player must quickly reason about boolean logic in order to pick the correct direction to move.
 
-🔗 https://github.com/eytanohana/Not-Not
+🔗 <a href="https://github.com/eytanohana/Not-Not" target="_blank">github.com/eytanohana/Not-Not</a>
 
 ---
 
 ## Earlier Work
 
 - **Data-Structures (Java)** — CS foundations  
-  https://github.com/eytanohana/Data-Structures
+    🔗 <a href="https://github.com/eytanohana/Data-Structures" target="_blank">github.com/eytanohana/Data-Structures</a>
 
 - **Neural-Network-in-NumPy** — ML from scratch  
-  https://github.com/eytanohana/Neural-Network-in-NumPy
+    🔗 <a href="https://github.com/eytanohana/Neural-Network-in-NumPy" target="_blank">github.com/eytanohana/Neural-Network-in-NumPy</a>
 
-- **LSTM-for-stock-price-prediction** — Using LSTMs to model stock pricing
-  https://github.com/eytanohana/LSTM-for-stock-price-prediction
+- **LSTM-for-stock-price-prediction** — Using LSTMs to model stock pricing  
+    🔗 <a href="https://github.com/eytanohana/LSTM-for-stock-price-prediction" target="_blank">github.com/eytanohana/LSTM-for-stock-price-prediction</a>
 
 ---
 
 If you’re interested in the full history, you can find everything on GitHub:  
-https://github.com/eytanohana
+<a href="https://github.com/eytanohana" target="_blank">github.com/eytanohana</a>
