@@ -1,9 +1,9 @@
 ---
-title: Where Docs go to Die
+title: A Graveyard of Docs
 description: My take on modern docs systems
 ---
 
-# Where Docs Go to Die
+# A Graveyard of Docs
 
 *January 25, 2026*
 
