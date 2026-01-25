@@ -55,3 +55,13 @@ is already confusing or broken. In that context, even minor signs of staleness a
 
 The result is predictable. Documentation ages quietly, trust erodes early, and teams learn to route around the docs instead of relying on them.
 What looks like neglect is often just the system behaving as designed.
+
+## Working Around the Docs
+
+Knowledge ends up in isolated silos, in individuals, where tribal knowledge rules. "Oh reach out to X, they understand Y"
+becomes the norm. As people enter and leave the organization information gets handed down, individual to individual, 
+until eventually the people left can only tell you how a system works but no one can say why it works that way.
+
+Eventually, the day comes where you need to make a change in some microservice and there's no one around who has confident
+knowledge in the system. So, familiarly, you break your head reading the code, debugging it, reading logs, and mapping 
+out edge cases until you become the person with the most knowledge.
