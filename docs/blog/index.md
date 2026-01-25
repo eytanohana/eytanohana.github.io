@@ -11,4 +11,4 @@ These are a collection of my experiences working code, systems, and building thi
 
 ## Posts
 
-- [Where Docs Go to Die](posts/where-docs-go-to-die.md) — *January 25, 2026*
+- [A Graveyard of Docs](posts/graveyard-of-docs.md) — *January 25, 2026*
